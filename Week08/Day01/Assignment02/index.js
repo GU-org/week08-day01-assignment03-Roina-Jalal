@@ -3,7 +3,7 @@ function lifeInWeeks(age) {
 
   //Write your code here.
   let age = prompt("What is your current age?");
-  let live = prompt("How many years do you want to live?");
+  let live = 90 - age;
   let years = live - age;
   let days = years * 365;
   let weeks = years * 52;
